@@ -1,0 +1,158 @@
+@media(min-width: 576px){
+    /*SM Breakpoint*/
+    .home h2{
+        font-size: 20px;
+    }
+
+
+}
+
+
+@media(min-width: 768px){
+    /*MD Breakpoint*/
+    .home{
+        margin-bottom: 40px
+    }
+    .home h2{
+        font-size: 25px;
+    }
+    .home p{
+        font-size: 15px;
+        line-height: 30px
+    }
+    .services .services-item{
+        border: none;
+    }
+    .about{
+        margin-bottom: 50px;
+    }
+    .about .about-content{
+        padding: 40px 80px 42px 44px;
+    }
+    .portfolio{
+        margin-bottom: 40px;
+    }
+    .portfolio .portfolio-content p{
+        font-size: 16px;
+        padding: 25px;
+    }
+    .portfolio .sec-menu a{
+        margin-inline:15px;
+    }
+    .portfolio-icon:before,
+    .testimonials-icon:before{
+        width: 13%;
+        left: 35%;
+    }
+    .portfolio-icon:after,
+    .testimonials-icon:after{
+        width: 13%;
+        right: 35%;
+
+    }
+    .testimonials{
+        margin-bottom: 100px;
+    }
+    .contact{
+        padding: 50px 0;
+    }
+
+}
+
+
+@media(min-width: 992px){
+    /*LG Breakpoint*/
+    .navbar-dark .navbar-nav a.nav-link{
+        border-bottom: none;
+        margin-inline:10px;
+    }
+    .navbar-dark .navbar-nav{
+        background: transparent;
+    }
+    .home{
+        margin-bottom: 60px
+    }
+    .home h2{
+        
+        line-height: 45px;
+    }
+    .home p{
+        font-size: 18px;
+        line-height: 45px
+    }
+    .services{
+        margin-bottom: 60px;
+    }
+    .about{
+        margin-bottom: 70px;
+    }
+    .about .about-content{
+        padding: 50px 90px 48px 50px;
+    }
+    .portfolio{
+        margin-bottom: 50px;
+    }
+    .portfolio .portfolio-content p{
+        padding: 40px;
+    }
+    .portfolio .sec-menu a{
+        margin-inline:30px;
+    }
+    .portfolio-icon:before,
+    .testimonials-icon:before{
+        width: 11%;
+        left: 37%;
+    }
+    .portfolio-icon:after,
+    .testimonials-icon:after{
+        width: 11%;
+        right: 37%;
+
+    }
+}
+
+
+@media(min-width: 1200px){
+    /*XL Breakpoint*/
+    .container{
+        max-width: 1114px;
+    }
+    .home{
+        margin-bottom: 83px
+    }
+    
+    .home p{
+        font-size: 22px;
+        line-height: 50px;
+
+    }
+    .services{
+        margin-bottom: 95px;
+    }
+    .about{
+        margin-bottom: 103px;
+    }
+    .about .about-content{
+        padding: 96px 130px 85px 90px;
+    }
+    .portfolio{
+        margin-bottom: 75px;
+    }
+    .portfolio .portfolio-content p{
+        padding: 45px 130px;
+    }
+    .contact{
+        padding: 73px 0;
+    }
+
+}
+
+
+@media(min-width: 1400px){
+    /*XXL Breakpoint*/
+    .container{
+        max-width: 1114px;
+    }
+
+
+}
